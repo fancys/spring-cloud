@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: nacos-config
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        prefix: nacos-config
+        file-extension: yaml
+        group: github
+        shared-dataids: log.yaml
+        refreshable-dataids: log.yaml
+
+#        ext-config[0].dataId: log1.yaml
+#        ext-config[0].group: github
+#        ext-config[0].refresh: true
+
+
+
+
